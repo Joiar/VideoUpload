@@ -9,17 +9,18 @@
 
         public function __construct()
         {
+        	// 在这里配置基本信息
             parent::__construct();
-            $this->arr['DB_NAME'] = 'xdl';
-            $this->arr['DB_USER'] = 'root';
-            $this->arr['DB_PWD'] = '123';
-            $this->arr['DB_HOST'] = '119.23.136.244';
-            $this->arr['AK'] = 'Z-Upp5pgDDZCUMwHjmjurOn5iWn4KSh-J9hxZ7cB';
-            $this->arr['SK'] = 'meSADJ158cTBTb-qz5cNyZcZmnAcazie5uhmswEi';
-            $this->arr['BUCKET_NAME'] = '3maio';
+            $this->arr['DB_NAME'] = '';
+            $this->arr['DB_USER'] = '';
+            $this->arr['DB_PWD'] = '';
+            $this->arr['DB_HOST'] = '';
+            $this->arr['AK'] = '';
+            $this->arr['SK'] = '';
+            $this->arr['BUCKET_NAME'] = '';
             // $this->arr['UPTOKEN_URL'] = 'uptoken.php';
-            $this->arr['UPTOKEN_URL'] = '/thinkphp_3.2.3_full/index.php/Qiniu/Index/uptoken.html';
-            $this->arr['DOMAIN'] = 'http://images.3maio.com';
+            $this->arr['UPTOKEN_URL'] = '/VideoUpload/index.php/Qiniu/Index/uptoken.html';
+            $this->arr['DOMAIN'] = '';
         }
 
         public function index()
