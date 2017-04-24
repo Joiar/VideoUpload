@@ -57,7 +57,7 @@
 
             //回调地址，上传文件成功后，将信息告诉这个地址
             // 'persistentNotifyUrl' => 'http://www.3maio.com/qiniudocs-master/demo/qav/callback.php',
-            'persistentNotifyUrl' => '/thinkphp_3.2.3_full/index.php/Qiniu/Index/callback.html',
+            'persistentNotifyUrl' => '/VideoUpload/index.php/Qiniu/Index/callback.html',
             // 'persistentPipeline' => 'abc',
 
             //处理的队列的名字
